@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>detils</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="data">
+  <ion-card *ngFor="let item of data; index as i">
+    <ion-item mode="ios" *ngFor="let citie of item.cities">
+      <ion-label>{{ citie.cityDetails }}</ion-label>
+    </ion-item>
+  </ion-card>
+</div>
+</ion-content>

@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "saudi",
+        "cities": [
+            {
+                "id": 1,
+                "cityName": "jeddah",
+                "cityDetails": "Jeddah Details"
+            },
+            {
+                "id": 2,
+                "cityName": "dammam",
+                "cityDetails": "dammam Details"
+            },
+            {
+                "id": 3,
+                "cityName": "makkah",
+                "cityDetails": "makkah Details"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "UAE",
+        "cities": [
+            {
+                "id": 1,
+                "cityName": "Dubai",
+                "cityDetails": "Dubai Details"
+            },
+            {
+                "id": 2,
+                "cityName": "Abu Dhabi",
+                "cityDetails": "Abu Dhabi Details"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "USA",
+        "cities": [
+            {
+                "id": 1,
+                "cityName": "Washington",
+                "cityDetails": "Washington Details"
+            },
+            {
+                "id": 2,
+                "cityName": "New York",
+                "cityDetails": "New York Details"
+            },
+            {
+                "id": 3,
+                "cityName": "Los Angeles",
+                "cityDetails": "Los AngelesDetails"
+            },
+            {
+                "id": 4,
+                "cityName": "Chicago",
+                "cityDetails": "Chicago Details"
+            }
+        ]
+    }
+]

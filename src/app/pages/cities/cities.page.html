@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>cities</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+  <ion-card *ngFor="let item of data; index as i">
+      <ion-item routerLink="/detils" mode="ios" *ngFor="let citie of item.cities">
+        <ion-label>{{ citie.cityName }}</ion-label>
+      </ion-item>
+  </ion-card>
+
+
+</ion-content>
